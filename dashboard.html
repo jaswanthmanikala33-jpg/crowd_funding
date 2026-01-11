@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="login-wrapper">
+  <div class="login-card">
+
+    <div class="login-header">Create Campaign</div>
+
+    <div class="login-body">
+<input id="title" placeholder="Title">
+<input id="category" placeholder="Category">
+<input id="target" placeholder="Target Amount">
+<textarea id="description" placeholder="Description"></textarea>
+<button onclick="createCampaign()">Create</button>
+
+<div id="campaignList"></div>
+
+<script type="module" src="js/dashboard.js"></script>
+</body>
+</html>

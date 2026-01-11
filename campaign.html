@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Campaign</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2 id="title"></h2>
+<p id="desc"></p>
+<p id="progress"></p>
+
+<input id="amount" placeholder="Donate Amount">
+<button onclick="donate()">Donate</button>
+
+<h3>Public Transaction Log</h3>
+<table border="1" width="100%">
+  <thead>
+    <tr>
+      <th>SNo</th>
+      <th>Amount (₹)</th>
+      <th>Date & Time</th>
+    </tr>
+  </thead>
+  <tbody id="transactionList"></tbody>
+</table>
+
+
+<script type="module" src="js/donate.js"></script>
+</body>
+</html>

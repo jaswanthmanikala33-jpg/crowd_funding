@@ -1,0 +1,169 @@
+
+
+/* =====================
+   GLOBAL
+   ===================== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: burlywood;
+}
+
+/* =====================
+   HEADER (HOME PAGE)
+   ===================== */
+header {
+  text-align: center;
+  background: blue;
+  color:orange;
+  padding: 100px;
+}
+
+header h1 {
+  margin: 10;
+}
+
+nav a {
+  color: violet;
+  margin-right: 15px;
+  text-decoration: unset;
+  font-weight:  bold;
+  font-size:20px;
+  
+}
+
+
+
+/* =====================
+   CAMPAIGNS
+   ===================== */
+.campaign-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 50px;
+  padding: 50px;
+}
+
+.campaign {
+  background: orange;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(19, 191, 111, 0.1);
+}
+
+.campaign h3 {
+  margin-top: 20px;
+}
+
+/* =====================
+   PROGRESS BAR
+   ===================== */
+.progress {
+  background:blue;
+  border-radius: 20px;
+  overflow-y:auto;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  height: 12px;
+  background: RED;
+}
+
+/* =====================
+   DEFAULT BUTTONS (HOME)
+   ===================== */
+button {
+  background: blue;
+  color: orange;
+  border: blue;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: green;
+}
+
+input, textarea {
+  width: 30%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* =====================================================
+   LOGIN, REGISTER, DASHBOARD PAGE STYLES 
+   ===================================================== */
+
+/* CENTER LOGIN,REGISTER,DASHBOARD PAGES */
+.login-wrapper {
+  min-height: 100vh;
+  width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+/* LOGIN CARD */
+.login-card {
+  width: 360px;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+
+/* ORANGE HEADER */
+.login-header {
+  position:fixed;
+  top:0;
+  width:330px;
+  z-index:1000;
+  background: linear-gradient(to right, orange,orange);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* LOGIN BODY */
+.login-body {
+  padding: 50px;
+  margin-top:70px;
+}
+
+/* LOGIN INPUTS */
+.login-body input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.login-body input:focus {
+  outline: brown;
+  border-color: blue;
+}
+
+/* blue LOGIN BUTTON */
+.login-body button {
+  width: 100%;
+  padding: 10px;
+  background: blue;
+  color: white;
+  border: burlywood;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-body button:hover {
+  background: blue;
+}
